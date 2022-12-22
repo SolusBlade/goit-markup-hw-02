@@ -1,0 +1,191 @@
+:root{
+    --acsent-color: #2196F3;
+    --main-bg-color: #FFFFFF;
+    --buttons-bg: #F5F4FA;
+    --bg-dark-color: #2F303A;
+    --bg-grey-color: #F5F4FA;
+    --main-color: #212121;
+    --second-color: #757575;
+    --white-color: #FFFFFF;
+    --footer-alfa-color: rgba(255, 255, 255, 0.6);
+}
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.title.hide{
+    visibility: hidden;
+}
+body{
+    background: var(--main-bg-color);
+    color: var(--main-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.buttons{
+    font-family: inherit;
+    background: var(--acsent-color);
+    border: none;
+    color: var(--white-color);
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    line-height: 1.87;
+    font-size: 16px;
+    font-weight: 700;
+}
+.buttons:hover,
+.buttons:focus{
+    background: var(--buttons-bg);
+    border: none;
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+.buttons.filter{
+    background: var(--buttons-bg);
+    border: none;
+    color: var(--main-color);
+    letter-spacing: 0.03em;
+    line-height: 1.62;
+    font-weight: 500;
+}
+.buttons.filter:hover,
+.buttons.filter:focus{
+    background: var(--acsent-color);
+    border: none;
+    color: var(--white-color);
+
+}
+/* Шапка */
+.page-header{
+    background: var(--white-color);
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+}
+.page-header .logo{
+    font-family: Raleway, sans-serif;
+    color: var(--acsent-color);
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.page-header .logo-part{
+    color: #000000; 
+}
+.main-nav .link{
+    color: var(--main-color);
+    font-weight: 500;
+}
+.main-nav .link:hover,
+.main-nav .link:focus{
+    color: var(--acsent-color);
+}
+.link.current{
+    color: var(--acsent-color);
+}
+.nav-adress .adress-link{
+    color: var(--second-color);
+    font-weight: 500;
+    
+}
+.nav-adress .adress-link:hover,
+.nav-adress .adress-link:focus{
+    color: var(--acsent-color)
+}
+/* Герой */
+.hero .button{
+    letter-spacing: 0.06em;
+    text-align: center;
+    line-height: 1.87;
+}
+.hero .hero-title{
+    background: var(--bg-dark-color);
+    color: var(--white-color);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    font-weight: 900;
+}
+/* Особливості */
+.features-title{
+    text-transform: uppercase;
+    line-height: 1.14;
+}
+.features-text{
+    color: var(--second-color);
+}
+/* Заняття */
+.speciality .title{
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.16;
+}
+/* Команда */
+body .team{
+    background: var(--bg-grey-color);
+}
+.team .title{
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.16;
+}
+.card{
+    font-size: 16px;
+    line-height: 1.18;
+}
+.card .card-title{
+    font-weight: 500;
+}
+.card .card-text{
+    color: var(--second-color);
+}
+/* Футер */
+.footer .logo{
+    font-family: Raleway, sans-serif;
+    color: var(--acsent-color);
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    text-decoration: none;
+}
+.footer .logo-part{
+        color: var(--white-color);
+}
+.footer{
+    background: var(--bg-dark-color);
+}
+.foot-adress{
+    color: var(--white-color);
+}
+.foot-link{
+    color: var(--footer-alfa-color);
+}
+.footer .foot-link:hover,
+.footer .foot-link:focus{
+    color: var(--acsent-color)
+}
+/*            Портфоліо          */
+/* Картки */
+.cards-list .card-title{
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.cards-list .card-text{
+    color: var(--second-color);
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.87;
+}
+
+    
