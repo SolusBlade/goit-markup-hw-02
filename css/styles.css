@@ -163,8 +163,9 @@ body .team{
 .footer{
     background: var(--bg-dark-color);
 }
-.foot-adress{
+.foot-adress a{
     color: var(--white-color);
+    font-style: normal;
 }
 .foot-link{
     color: var(--footer-alfa-color);
